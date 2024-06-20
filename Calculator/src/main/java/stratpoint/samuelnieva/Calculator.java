@@ -20,6 +20,35 @@ public class Calculator {
         return x * y;
     }
 
+    public boolean validateString(String e) {
+        char[] c = e.toCharArray();
+        boolean firstPar = true;
+        int parCount1 = 0;
+        int parCount2 = 0;
+
+        for(int i = 0;i < c.length;i++) {
+            if(firstPar) {
+                if(c[i] == ')')
+                    return false;
+                else if(c[i] == '(') {
+                    parCount1++;
+                    firstPar = false;
+                }
+            }
+            else {
+                if(c[i] == ')')
+                    parCount2++;
+                else if(c[i] == '(')
+                    parCount1++;
+            }
+        }
+
+        if(parCount1 == parCount2)
+            return true;
+        else
+            return false;
+    }
+
     public double calculateString(String e) {
         double total = 0;
 
@@ -35,13 +64,18 @@ public class Calculator {
 
 
         try {
+            if(!this.validateString(e))
+                throw new Exception("Invalid Input: Invalid Parenthesis");
+
             for (int i = 0;i < chars.length;i++) {
                 boolean numFlag = Character.getNumericValue(chars[i]) != -1;
                 boolean symFlag1 = chars[i] == '+' || chars[i] == '-';
                 boolean symFlag2 = chars[i] == '*' || chars[i] == '/';
 
-                if(chars[i] == '(')
+                if(chars[i] == '(' && !parFlag) {
                     parFlag = true;
+                    parString = "";
+                }
 
                 if(parFlag) {
                     if(chars[i] == '(')
@@ -50,8 +84,6 @@ public class Calculator {
                         par.pop();
 
                     parString += chars[i];
-
-
 
                     if(par.isEmpty()) {
                         parFlag = false;
@@ -78,6 +110,7 @@ public class Calculator {
                     Double temp = nums.pop();
                     Double temp2;
 
+                    //Parse number
                     if(i != chars.length - 1 && (chars[i+1] == '.' || Character.getNumericValue(chars[i+1]) != -1)) {
                         String temp3 = "" + chars[i];
                         while(i != chars.length - 1 && (chars[i+1] == '.' || Character.getNumericValue(chars[i+1]) != -1)) {
@@ -150,11 +183,8 @@ public class Calculator {
             }
         }
         catch(Exception ex) {
-            System.out.println();
             System.out.println(ex.getMessage());
         }
-
-
 
         return total;
     }

@@ -68,7 +68,8 @@ public class Calculator {
                 throw new Exception("Invalid Input: Invalid Parenthesis");
 
             for (int i = 0;i < chars.length;i++) {
-                boolean numFlag = Character.getNumericValue(chars[i]) != -1;
+                boolean numFlag = chars[i] == '-' || Character.getNumericValue(chars[i]) != -1;
+                boolean negFlag = i == 0 || (chars[i-1] == '+' || chars[i-1] == '-' || chars[i-1] == '*' || chars[i-1] == '/');
                 boolean symFlag1 = chars[i] == '+' || chars[i] == '-';
                 boolean symFlag2 = chars[i] == '*' || chars[i] == '/';
 
@@ -106,13 +107,25 @@ public class Calculator {
                     }
                 }
                 else if(calc) {
-                    //If calc is true, guaranteed it's a number
                     Double temp = nums.pop();
                     Double temp2;
 
+                    String temp3 = "";
+
+                    if(chars[i] == '-') {
+                        if(negFlag) {
+                            temp3 += chars[i];
+                            i++;
+                        }
+                        else {
+                            symbols.push(chars[i]);
+                            i++;
+                        }
+                    }
+                    
                     //Parse number
                     if(i != chars.length - 1 && (chars[i+1] == '.' || Character.getNumericValue(chars[i+1]) != -1)) {
-                        String temp3 = "" + chars[i];
+                        temp3 += chars[i];
                         while(i != chars.length - 1 && (chars[i+1] == '.' || Character.getNumericValue(chars[i+1]) != -1)) {
                             i++;
 
@@ -125,7 +138,10 @@ public class Calculator {
                         temp2 = Double.parseDouble(temp3);
                     }
                     else {
-                        temp2 = (double) Character.getNumericValue(chars[i]);
+                        if(!temp3.isEmpty())
+                            temp2 = Double.parseDouble(temp3 + chars[i]);
+                        else
+                            temp2 = (double) Character.getNumericValue(chars[i]);
                     }
 
                     Character op = symbols.pop();
@@ -140,9 +156,24 @@ public class Calculator {
                     calc = false;
                 }
                 else {
+                    String temp = "";
+
                     if(numFlag) {
+
+                        //Case on if negative sign was found
+                        if(chars[i] == '-') {
+                            if(negFlag) {
+                                temp += chars[i];
+                                i++;
+                            }
+                            else {
+                                symbols.push(chars[i]);
+                                i++;
+                            }
+                        }
+
                         if(i != chars.length - 1  && ((Character.getNumericValue(chars[i+1]) != -1) || chars[i+1] == '.')) {
-                            String temp = "" + chars[i];
+                            temp += chars[i];
 
                             while(i != chars.length - 1 && ((Character.getNumericValue(chars[i+1]) != -1) || chars[i+1] == '.')) {
                                 i++;
@@ -154,8 +185,12 @@ public class Calculator {
 
                             nums.push(Double.parseDouble(temp));
                         }
-                        else
-                            nums.push((double) Character.getNumericValue(chars[i]));
+                        else {
+                            if(!temp.isEmpty())
+                                nums.push(Double.parseDouble(temp + chars[i]));
+                            else
+                                nums.push((double) Character.getNumericValue(chars[i]));
+                        }
                     }
 
                     else if(symFlag1 || symFlag2) {
@@ -165,6 +200,13 @@ public class Calculator {
                     if(symFlag2)
                         calc = true;
                 }
+            }
+
+
+
+            if(nums.size() != symbols.size() + 1) {
+                total = 0;
+                throw new Exception(("Invalid input: Wrong formatting"));
             }
 
             //Last pass
@@ -183,6 +225,7 @@ public class Calculator {
             }
         }
         catch(Exception ex) {
+            System.out.println();
             System.out.println(ex.getMessage());
         }
 

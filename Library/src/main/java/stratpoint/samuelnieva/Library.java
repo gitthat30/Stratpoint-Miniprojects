@@ -44,6 +44,13 @@ public class Library {
                 }
                 break;
 
+            case "p":
+                for (Book b: listBooks) {
+                    if(b.getPublisher().contains(query)) {
+                        returnedList.add(b);
+                    }
+                }
+
             case "i":
                 for (Book b: listBooks) {
                     if(b.getISBN().contains(query)) {
@@ -64,36 +71,73 @@ public class Library {
     }
 
     public void addBiography() {
-        String t = sc.nextLine();
-        String a = sc.nextLine();
-        String p = sc.nextLine();
-        String dp = sc.nextLine();
-        String isbn = sc.nextLine();
-        String s = sc.nextLine();
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter subject:");
+        String s = sc.next();
 
         listBooks.add(new Biography(t, a, p, dp, isbn, s));
     }
 
     public void addNovel() {
-        String t = sc.nextLine();
-        String a = sc.nextLine();
-        String p = sc.nextLine();
-        String dp = sc.nextLine();
-        String isbn = sc.nextLine();
-        String g = sc.nextLine();
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter genre:");
+        String g = sc.next();
 
         listBooks.add(new Novel(t, a, p, dp, isbn, g));
     }
 
     public void addManga() {
-        String t = sc.nextLine();
-        String a = sc.nextLine();
-        String p = sc.nextLine();
-        String dp = sc.nextLine();
-        String isbn = sc.nextLine();
-        String i = sc.nextLine();
-        String v = sc.nextLine();
-        String g = sc.nextLine();
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter illustrator: ");
+        String i = sc.next();
+
+        System.out.println("Enter volume: ");
+        String v = sc.next();
+
+        System.out.println("Enter genre: ");
+        String g = sc.next();
 
         listBooks.add(new Manga(t, a, p, dp, isbn, i, v, g));
 

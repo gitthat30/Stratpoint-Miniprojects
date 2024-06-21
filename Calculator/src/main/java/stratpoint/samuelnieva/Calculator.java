@@ -122,7 +122,7 @@ public class Calculator {
                             i++;
                         }
                     }
-                    
+
                     //Parse number
                     if(i != chars.length - 1 && (chars[i+1] == '.' || Character.getNumericValue(chars[i+1]) != -1)) {
                         temp3 += chars[i];

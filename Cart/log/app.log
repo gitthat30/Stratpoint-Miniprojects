@@ -1,2 +1,2 @@
-13:12:17.912 [main] INFO  stratpoint.samuelnieva.Main -- Test
-13:38:47.196 [main] INFO  stratpoint.samuelnieva.Main -- Test
+14:06:41.243 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+14:06:41.243 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList

@@ -46,7 +46,7 @@ public class Cart {
      * Adds a product to the productList variable. In addition to this, the method
      * also adds the price of the added product ot the totalPrice of the cart.
      *
-     * @param p - The Product object to be added to the list
+     * @param p   The Product object to be added to the list
      */
     public void addProduct(Product p) {
         logger.trace("Entered addProduct with product {}", p.getName());
@@ -68,7 +68,7 @@ public class Cart {
      * variable named: productList. This method also subtracts the price of that
      * product from the totalPrice of the cart.
      *
-     * @param n - The index of the product to be removed from the list (First index = 1).
+     * @param n  The index of the product to be removed from the list (First index = 1).
      */
     public void delProduct(int n) {
         n--;

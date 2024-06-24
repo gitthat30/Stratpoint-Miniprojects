@@ -13,6 +13,7 @@ public class Calculator {
     }
 
     public double divNum(double x, double y) {
+        //Add exception in here next time
         return x / y;
     }
 

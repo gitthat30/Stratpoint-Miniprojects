@@ -1,17 +1,20 @@
 package stratpoint.samuelnieva;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.List;
 
 public class Catalog {
     private List<Product> productList;
     private List<Product> queryList;
+    private Product tempProduct; //To store product objects for logging
 
     Catalog(List<Product> p) {
         this.productList = p;
     }
 
     public void outputProducts() {
-        System.out.println("List of products:");
         productList.forEach((p) -> { p.outputInfo(); });
     }
 
@@ -65,4 +68,6 @@ public class Catalog {
     public void setQueryList(List<Product> queryList) {
         this.queryList = queryList;
     }
+
+
 }

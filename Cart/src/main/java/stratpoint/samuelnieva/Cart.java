@@ -20,13 +20,22 @@ public class Cart {
 
     public void viewProducts() {
         System.out.println("List of products:");
-        inCart.forEach((p) -> { p.outputInfo(); });
+
+        int counter = 0;
+        for(Product p : inCart) {
+            System.out.println("\nProduct #" + (counter+1) + ":");
+            p.outputInfo();
+            counter++;
+        }
     }
 
     public void addProduct(Product p) {
         logger.trace("Entered addProduct with product {}", p.getName());
 
         oldPrice = totalPrice;
+
+        //Set random ID in the case of duplicates. This is so the delProduct check works
+        p.setID(Math.random());
 
         inCart.add(p);
         logger.debug("Product {} added to productList", inCart.get(inCart.size()-1).getName());
@@ -36,6 +45,7 @@ public class Cart {
     }
 
     public void delProduct(int n) {
+        n--;
         tempProduct = inCart.get(n);
         logger.trace("Entered delProduct with index {}", n);
         oldPrice = totalPrice;
@@ -46,8 +56,8 @@ public class Cart {
         inCart.remove(n);
 
         //Check if cart is empty (removed for sure)
-        //Check if index is no equal to tempProduct (removed since old product isn't there anymore)
-        if(inCart.isEmpty() || !inCart.get(n).equals(tempProduct))
+        //Compare the ID of the product within the original index is the same as the stored product's ID to see if they're different
+        if(inCart.isEmpty() || (inCart.get(n).getID() == tempProduct.getID()))
             logger.debug("Product {} successfully removed from productList", tempProduct.getName());
         else
             logger.error("Failed to remove product {}", tempProduct);
@@ -58,11 +68,7 @@ public class Cart {
         return totalPrice;
     }
 
-    public void setTotalPrice(double totalPrice) {
-        oldPrice = totalPrice;
-        this.totalPrice = totalPrice;
-
-        logger.debug("Total Price of Cart has been set to {}. Previous value was {}.", totalPrice, oldPrice);
-
+    public int getCartSize() {
+        return inCart.size();
     }
 }

@@ -3,6 +3,7 @@ package stratpoint.samuelnieva;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Catalog {
@@ -17,8 +18,14 @@ public class Catalog {
     }
 
     public void outputProducts() {
-        System.out.println("List of products:");
-        productList.forEach((p) -> { p.outputInfo(); });
+        System.out.println("\nList of products:");
+
+        int counter = 0;
+        for(Product p : productList) {
+            System.out.println("\nProduct #" + (counter+1) + ":");
+            p.outputInfo();
+            counter++;
+        }
     }
 
     public void addProduct(Product p) {
@@ -42,42 +49,26 @@ public class Catalog {
             logger.error("Failed to remove product {}", tempProduct);
     }
 
-    public void searchProduct(String q, int t) {
+    public void searchProduct(String q) {
+        this.queryList = new ArrayList<>();
         productList.forEach((p) -> {
-            switch(t) {
-                case 1: //Name
-                    if(p.getName().contains(q))
-                        queryList.add(p);
-                    break;
-
-                case 2: //Category
-                    if(p.getName().equals(q))
-                        queryList.add(p);
-                    break;
-
-                case 3: //Brand
-                    if(p.getBrand().equals(q))
-                        queryList.add(p);
+            if(p.getName().contains(q) || p.getBrand().contains(q) || p.getCategory().contains(q)) {
+                queryList.add(p);
+                logger.debug("Product {} successfully added to queryList.", p.getName());
             }
+
         });
 
         queryList.forEach((p) -> { p.outputInfo(); });
     }
 
     //This method is only to be called after calling searchProduct
-    public void delFromQuery(int n) {
-        logger.trace("Entering delFromQuery with index {}", n);
+    public void addFromQuery(int n) {
+        logger.trace("Entering addFromQuery with index {}", n);
         tempProduct = queryList.get(n);
 
-        int tempIndex = productList.indexOf(tempProduct);
-        productList.remove(tempIndex);
-
-        //Check if productList is empty (removed for sure)
-        //Check if index is no equal to tempProduct (removed since old product isn't there anymore)
-        if(productList.isEmpty() || !productList.get(tempIndex).equals(tempProduct))
-            logger.debug("Product {} successfully removed from productList", tempProduct.getName());
-        else
-            logger.error("Failed to remove product {}", tempProduct);
+        productList.add(tempProduct);
+        logger.debug("Product {} successfully added to the productList.", tempProduct);
     }
 
     public List<Product> getProductList() {
@@ -96,5 +87,7 @@ public class Catalog {
         this.queryList = queryList;
     }
 
-
+    public Product getFromProductList(int n) {
+        return productList.get(n);
+    }
 }

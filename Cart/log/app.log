@@ -1,2 +1,177 @@
 14:06:41.243 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
 14:06:41.243 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+14:17:31.497 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+14:17:31.500 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+14:17:31.501 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+14:17:31.503 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+14:17:31.503 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+14:17:31.503 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+14:17:31.503 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+14:17:31.503 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+14:17:31.503 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+14:17:31.503 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+14:17:31.503 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+14:17:31.503 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+14:17:31.503 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:06:36.320 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:06:36.335 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:06:36.338 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:06:36.338 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:06:36.338 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:06:36.338 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:06:36.338 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:06:36.338 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:07:42.915 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:07:42.926 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:07:42.927 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:07:42.928 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:07:42.928 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:07:42.928 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:07:42.928 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:07:42.928 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:07:42.928 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:07:42.928 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:07:42.928 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:07:42.928 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:07:42.928 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:09:00.777 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+15:36:48.598 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:36:48.609 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:36:48.610 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:36:48.610 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:36:48.610 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:36:48.610 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:36:48.610 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:36:48.610 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:36:48.611 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:36:48.611 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:36:48.611 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:36:48.611 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:36:48.611 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:37:09.385 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product MyPhone ZZZ
+15:37:09.385 [main] DEBUG stratpoint.samuelnieva.Cart -- Product MyPhone ZZZ added to productList
+15:37:09.385 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 20000.0. Previous value was 0.0.
+15:37:54.523 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:37:54.548 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:37:54.549 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:37:54.550 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:37:54.550 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:37:54.550 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:37:54.550 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:37:54.550 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:37:54.550 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:37:54.550 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:37:54.550 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:37:54.550 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:37:54.550 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:37:57.227 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Mentos 100 Pack
+15:37:57.228 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Mentos 100 Pack added to productList
+15:37:57.228 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 100.0. Previous value was 0.0.
+15:38:03.659 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product MyPhone ZZZ
+15:38:03.659 [main] DEBUG stratpoint.samuelnieva.Cart -- Product MyPhone ZZZ added to productList
+15:38:03.659 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 20100.0. Previous value was 100.0.
+15:38:39.218 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:38:39.234 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:38:39.235 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:38:39.235 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:38:39.235 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:38:39.235 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:38:39.235 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:38:39.235 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:39:22.032 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:39:22.033 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:39:22.033 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 2000.0. Previous value was 0.0.
+15:39:27.176 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:39:27.176 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:39:27.177 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 4000.0. Previous value was 2000.0.
+15:39:31.793 [main] TRACE stratpoint.samuelnieva.Cart -- Entered delProduct with index 1
+15:39:31.793 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been decreased to 2000.0. Previous value was 4000.0.
+15:41:33.833 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:41:33.846 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:41:33.847 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:41:33.847 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:41:33.847 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:41:33.847 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:41:33.847 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:41:33.847 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:41:39.816 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:41:39.816 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:41:39.817 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 2000.0. Previous value was 0.0.
+15:41:41.729 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:41:41.729 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:41:41.729 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 4000.0. Previous value was 2000.0.
+15:41:46.283 [main] TRACE stratpoint.samuelnieva.Cart -- Entered delProduct with index 0
+15:41:46.284 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been decreased to 2000.0. Previous value was 4000.0.
+15:41:46.284 [main] ERROR stratpoint.samuelnieva.Cart -- Failed to remove product stratpoint.samuelnieva.Product@345965f2
+15:43:10.022 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:43:10.035 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:43:10.036 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:43:10.037 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:43:10.037 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:43:10.037 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:43:10.037 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:43:10.037 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:43:10.037 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:43:10.037 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:43:10.037 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:43:10.037 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:43:10.037 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:43:16.849 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:43:16.849 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:43:16.850 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 2000.0. Previous value was 0.0.
+15:43:18.478 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Mentos 100 Pack
+15:43:18.478 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Mentos 100 Pack added to productList
+15:43:18.479 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 2100.0. Previous value was 2000.0.
+15:43:25.732 [main] TRACE stratpoint.samuelnieva.Cart -- Entered delProduct with index 0
+15:43:25.732 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been decreased to 100.0. Previous value was 2100.0.
+15:43:25.733 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat successfully removed from productList
+15:46:20.319 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:46:20.334 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:46:20.335 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:46:20.336 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:46:20.336 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:46:20.336 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:46:20.336 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:46:20.336 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:46:20.336 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:46:20.336 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:46:20.336 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:46:20.336 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:46:20.336 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:47:33.343 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:47:33.360 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+15:47:33.361 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+15:47:33.362 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+15:47:33.362 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+15:47:33.362 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+15:47:33.362 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+15:47:33.362 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+15:47:33.362 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+15:47:33.363 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+15:47:33.363 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+15:47:33.363 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+15:47:33.363 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+15:47:38.055 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:47:38.055 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:47:38.056 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 2000.0. Previous value was 0.0.
+15:47:39.233 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Red Hat
+15:47:39.233 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat added to productList
+15:47:39.234 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 4000.0. Previous value was 2000.0.
+15:47:43.488 [main] TRACE stratpoint.samuelnieva.Cart -- Entered delProduct with index 0
+15:47:43.489 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been decreased to 2000.0. Previous value was 4000.0.
+15:47:43.489 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat successfully removed from productList

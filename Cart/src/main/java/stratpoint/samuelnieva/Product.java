@@ -5,7 +5,7 @@ public class Product {
     private String name;
     private String category;
     private String brand;
-
+    private double ID = Math.random();
 
     public Product(double price, String name, String category, String brand) {
         this.price = price;
@@ -52,5 +52,13 @@ public class Product {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public double getID() {
+        return ID;
+    }
+
+    public void setID(double ID) {
+        this.ID = ID;
     }
 }

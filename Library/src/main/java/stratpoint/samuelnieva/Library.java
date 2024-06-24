@@ -24,7 +24,7 @@ public class Library {
         System.out.println(listBooks.size());
     }
 
-    public void searchBooks(String query, String type) {
+    public void searchBooks(String quey, String type) {
         returnedList.clear();
 
         switch(type) {

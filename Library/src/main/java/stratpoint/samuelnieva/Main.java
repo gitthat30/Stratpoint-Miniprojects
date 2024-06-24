@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Test Data
         Manga test1 = new Manga("One Piece", "Eiichiro Oda", "VIZ Media LLC", "September 2, 2003", "978-1569319017", "Eiichiro Oda", "1", "Adventure");
         Manga test2 = new Manga("Death Note", "Tsugumi Ohba", "VIZ Media LLC", "October 10, 2005", "978-1421501680", "Takeshi Obata", "1", "Mystery");
 
@@ -13,8 +15,6 @@ public class Main {
         Biography test4 = new Biography("Alexander Hamilton", "Ron Chernow", "Penguin Books", "March 29, 2005", "978-0143034759", "Alexander Hamilton");
 
         Novel test5 = new Novel("Don Quixote", " Miguel De Cervantes Saavedra", "Penguin Classics", "February 25, 2003", "978-0142437230", "Satire");
-
-        Manga test6 = new Manga("Death Note2", "Tsugumi Ohba", "VIZ Media LLC", "October 10, 2005", "978-1421501680", "Takeshi Obata", "1", "Mystery");
 
         Scanner sc = new Scanner(System.in);
 

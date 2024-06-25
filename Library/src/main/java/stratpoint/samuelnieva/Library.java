@@ -1,17 +1,22 @@
 package stratpoint.samuelnieva;
 
 import java.util.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Library {
     List<Book> listBooks = new ArrayList<>();
     List<Book> returnedList = new ArrayList<>();
+
     Scanner sc = new Scanner(System.in);
+    Logger logger = LoggerFactory.getLogger(Library.class);
 
     Library(List<Book> b) {
         this.listBooks = b;
     }
 
     public void outputBooks() {
+
         int counter = 1;
         for (Book b : listBooks) {
             System.out.println("\nBook " + counter + ":");
@@ -25,13 +30,19 @@ public class Library {
     }
 
     public void searchBooks(String query) {
+
         returnedList.clear();
+        logger.debug("returnedList has been cleared.");
 
         for(Book b : listBooks) {
-            if(b.getTitle().contains(query) || b.getPublisher().contains(query) || b.getAuthor().contains(query) || b.getISBN().equals(query))
+            if(b.getTitle().contains(query) || b.getPublisher().contains(query) || b.getAuthor().contains(query) || b.getISBN().equals(query)) {
                 returnedList.add(b);
+                logger.debug("Book {} has been added to returnedList", b.getTitle());
+            }
+
         }
 
+        logger.debug("searchBooks has left the initial for loop with {} books in returnedList", returnedList.size());
         System.out.println("Found " + returnedList.size() + " books:");
 
         int counter = 1;
@@ -134,9 +145,7 @@ public class Library {
         }
 
         listBooks.remove(choice - 1);
-
-
-
+        logger.debug("Successfully removed book in index {} from listBooks", choice-1);
     }
 
     public List<Book> getListBooks() {

@@ -92,27 +92,11 @@ public class Library {
     }
 
     /**
-     * Del book.
+     * Deletes a book from the list using a given index. The index is zero-based.
      */
-    public void delBook() {
-        this.outputBooks();
-
-        int choice = -1;
-        while(choice < 1 || choice > listBooks.size()) {
-            try {
-                System.out.print("\nPlease select book to delete (Enter Number): ");
-                choice = sc.nextInt();
-            }
-            catch(Exception e) {
-                sc.next();
-            }
-
-            if(choice < 1 || choice > listBooks.size())
-                System.out.println("Invalid Input: Please select from one of the choices");
-        }
-
-        listBooks.remove(choice - 1);
-        logger.debug("Successfully removed book in index {} from listBooks", choice-1);
+    public void delBook(int index) {
+        listBooks.remove(index);
+        logger.debug("Successfully removed book in index {} from listBooks", index);
     }
 
     /**

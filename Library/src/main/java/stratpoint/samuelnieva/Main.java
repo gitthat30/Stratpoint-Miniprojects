@@ -14,6 +14,9 @@ import java.util.Scanner;
  */
 public class Main {
 
+    /**
+     * The Sc.
+     */
     static Scanner sc = new Scanner(System.in);
 
     /**
@@ -100,7 +103,9 @@ public class Main {
                         break;
 
                     case 4:
-                        l.delBook();
+                        l.outputBooks();
+
+                        l.delBook(Main.parseDeleteBook(l.getListBooks().size()));
                         break;
 
                     default:
@@ -202,5 +207,30 @@ public class Main {
         String g = sc.next();
 
         return new Manga(t, a, p, dp, isbn, i, v, g);
+    }
+
+    /**
+     * Parses user input for an index representing a book to delete from a
+     * Library object's list of books.
+     *
+     * @param size The size of the Library's list of books
+     * @return The index of the book to be removed
+     */
+    public static int parseDeleteBook(int size) {
+        int choice = -1;
+        while(choice < 1 || choice > size) {
+            try {
+                System.out.print("\nPlease select book to delete (Enter Number): ");
+                choice = sc.nextInt();
+            }
+            catch(Exception e) {
+                sc.next();
+            }
+
+            if(choice < 1 || choice > size)
+                System.out.println("Invalid Input: Please select from one of the choices");
+        }
+
+        return choice-1;
     }
 }

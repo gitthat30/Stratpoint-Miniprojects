@@ -1,7 +1,0 @@
-<suite name="MySuite">
-    <test name="CartTest">
-        <classes>
-            <class name="stratpoint.samuelnieva.Cart"/>
-        </classes>
-    </test>
-</suite>

@@ -1,0 +1,4 @@
+14:39:55.509 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+14:41:05.609 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+14:41:05.610 [main] DEBUG stratpoint.samuelnieva.Library -- Book Manga has been added to returnedList
+14:41:05.612 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList

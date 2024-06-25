@@ -1,11 +1,29 @@
 package stratpoint.samuelnieva;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * The Main class that facilitates the use of the Book object and
+ * its subclasses: Biography, Novel and Manga, along with the
+ * Library class.
+ */
 public class Main {
+
+    static Scanner sc = new Scanner(System.in);
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
+        Logger logger = LoggerFactory.getLogger(Main.class);
+        logger.debug("Start of main method:");
 
         //Test Data
         Manga test1 = new Manga("One Piece", "Eiichiro Oda", "VIZ Media LLC", "September 2, 2003", "978-1569319017", "Eiichiro Oda", "1", "Adventure");
@@ -64,15 +82,15 @@ public class Main {
 
                         switch(choice3) {
                             case 1:
-                                l.addNovel();
+                                l.addBook(Main.parseNovel());
                                 break;
 
                             case 2:
-                                l.addBiography();
+                                l.addBook(Main.parseBiography());
                                 break;
 
                             case 3:
-                                l.addManga();
+                                l.addBook(Main.parseManga());
                                 break;
 
                             default:
@@ -97,5 +115,92 @@ public class Main {
             System.out.println("Invalid input. Please try again\n");
         }
 
+    }
+
+    /**
+     * Parses user input to create a Biography object.
+     *
+     * @return The Biography object created from the user input.
+     */
+    public static Biography parseBiography() {
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter subject:");
+        String s = sc.next();
+
+        return new Biography(t, a, p, dp, isbn, s);
+    }
+
+    /**
+     * Parses user input to create a Novel object.
+     *
+     * @return The Novel object created from the user input.
+     */
+    public static Novel parseNovel() {
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter genre:");
+        String g = sc.next();
+
+        return new Novel(t, a, p, dp, isbn, g);
+    }
+
+    /**
+     * Parses user input to create a Manga object.
+     *
+     * @return The Manga object created from the user input.
+     */
+    public static Manga parseManga() {
+        System.out.println("Enter title: ");
+        String t = sc.next();
+
+        System.out.println("Enter author: ");
+        String a = sc.next();
+
+        System.out.println("Enter publisher: ");
+        String p = sc.next();
+
+        System.out.println("Enter date published: ");
+        String dp = sc.next();
+
+        System.out.println("Enter ISBN: ");
+        String isbn = sc.next();
+
+        System.out.println("Enter illustrator: ");
+        String i = sc.next();
+
+        System.out.println("Enter volume: ");
+        String v = sc.next();
+
+        System.out.println("Enter genre: ");
+        String g = sc.next();
+
+        return new Manga(t, a, p, dp, isbn, i, v, g);
     }
 }

@@ -45,37 +45,12 @@ public class Main {
                         l.outputBooks();
                         break;
                     case 2:
-                        System.out.println("\nSearch for book using:");
-                        System.out.println("1 - Title");
-                        System.out.println("2 - Author");
-                        System.out.println("3 - Publisher");
-                        System.out.println("4 - ISBN\n");
-                        System.out.println("Choice: ");
-
-                        int choice2 = sc.nextInt();
-
-                        System.out.println("Enter search query: ");
+                        System.out.println("\nEnter search query:");
 
                         String query = sc.next();
                         System.out.println();
 
-                        switch(choice2) {
-                            case 1:
-                                l.searchBooks(query, "t");
-                                break;
-
-                            case 2:
-                                l.searchBooks(query, "a");
-                                break;
-
-                            case 3:
-                                l.searchBooks(query, "p");
-                                break;
-
-                            case 4:
-                                l.searchBooks(query, "i");
-                                break;
-                        }
+                        l.searchBooks(query);
                         break;
 
                     case 3:

@@ -175,3 +175,16 @@
 15:47:43.488 [main] TRACE stratpoint.samuelnieva.Cart -- Entered delProduct with index 0
 15:47:43.489 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been decreased to 2000.0. Previous value was 4000.0.
 15:47:43.489 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Red Hat successfully removed from productList
+17:47:35.357 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+17:47:35.364 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+17:47:35.365 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+17:47:35.366 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList

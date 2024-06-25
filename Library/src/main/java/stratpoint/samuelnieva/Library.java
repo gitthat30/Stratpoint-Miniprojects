@@ -24,39 +24,12 @@ public class Library {
         System.out.println(listBooks.size());
     }
 
-    public void searchBooks(String query, String type) {
+    public void searchBooks(String query) {
         returnedList.clear();
 
-        switch(type) {
-            case "t":
-                for (Book b: listBooks) {
-                    if(b.getTitle().contains(query)) {
-                        returnedList.add(b);
-                    }
-                }
-                break;
-
-            case "a":
-                for (Book b: listBooks) {
-                    if(b.getAuthor().contains(query)) {
-                        returnedList.add(b);
-                    }
-                }
-                break;
-
-            case "p":
-                for (Book b: listBooks) {
-                    if(b.getPublisher().contains(query)) {
-                        returnedList.add(b);
-                    }
-                }
-
-            case "i":
-                for (Book b: listBooks) {
-                    if(b.getISBN().contains(query)) {
-                        returnedList.add(b);
-                    }
-                }
+        for(Book b : listBooks) {
+            if(b.getTitle().contains(query) || b.getPublisher().contains(query) || b.getAuthor().contains(query) || b.getISBN().equals(query))
+                returnedList.add(b);
         }
 
         System.out.println("Found " + returnedList.size() + " books:");

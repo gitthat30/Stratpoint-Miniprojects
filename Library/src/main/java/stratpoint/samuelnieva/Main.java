@@ -35,8 +35,10 @@ public class Main {
 
         Main.addSampleBooks(l);
 
-        try {
-            while(true) {
+        while(true) {
+            int choice = 0;
+            while(choice < 1 || choice > 4) {
+
                 System.out.println("Pick an action: ");
                 System.out.println("1 - List all books");
                 System.out.println("2 - Search for a book");
@@ -45,67 +47,78 @@ public class Main {
 
                 System.out.println("Choice: ");
 
-                int choice = sc.nextInt();
+                try {
+                    choice = sc.nextInt();
+                }
+                catch(Exception e) {
+                    System.out.println("\nInvalid input: Please pick from the choices\n");
+                    sc.next();
+                }
 
-                switch (choice) {
-                    case 1:
-                        l.outputBooks();
-                        break;
-                    case 2:
-                        System.out.println("\nEnter search query:");
+            }
 
-                        String query = sc.next();
-                        System.out.println();
+            switch (choice) {
+                case 1:
+                    l.outputBooks();
+                    break;
+                case 2:
+                    System.out.println("\nEnter search query:");
 
-                        l.searchBooks(query);
-                        break;
+                    String query = sc.next();
+                    System.out.println();
 
-                    case 3:
+                    l.searchBooks(query);
+                    break;
+
+                case 3:
+                    int choice3 = 0;
+
+                    while(choice3 < 1 || choice3 > 3) {
                         System.out.println("\nSelect type of book to add:");
                         System.out.println("1 - Novel");
                         System.out.println("2 - Biography");
                         System.out.println("3 - Manga\n");
                         System.out.println("Choice: ");
 
-                        int choice3 = sc.nextInt();
-
-                        switch(choice3) {
-                            case 1:
-                                l.addBook(Main.parseNovel());
-                                break;
-
-                            case 2:
-                                l.addBook(Main.parseBiography());
-                                break;
-
-                            case 3:
-                                l.addBook(Main.parseManga());
-                                break;
-
-                            default:
-                                throw new Exception();
+                        try {
+                            choice3 = sc.nextInt();
                         }
+                        catch(Exception e) {
+                            System.out.println("\nInvalid choice: Please try again\n");
+                            sc.next();
+                        }
+                    }
 
-                        break;
 
-                    case 4:
-                        l.outputBooks();
+                    switch(choice3) {
+                        case 1:
+                            l.addBook(Main.parseNovel());
+                            break;
 
-                        l.delBook(Main.parseDeleteBook(l.getListBooks().size()));
-                        break;
+                        case 2:
+                            l.addBook(Main.parseBiography());
+                            break;
 
-                    default:
-                        throw new Exception();
-                }
+                        case 3:
+                            l.addBook(Main.parseManga());
+                            break;
 
-                System.out.println();
+                        default:
+                    }
+
+                    break;
+
+                case 4:
+                    l.outputBooks();
+
+                    l.delBook(Main.parseDeleteBook(l.getListBooks().size()));
+                    break;
+
+                default:
             }
-        }
-        catch(Exception e) {
-            sc.next();
-            System.out.println("Invalid input. Please try again\n");
-        }
 
+            System.out.println();
+        }
     }
 
     /**

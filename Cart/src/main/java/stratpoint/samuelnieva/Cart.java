@@ -72,6 +72,7 @@ public class Cart {
      */
     public void delProduct(int n) {
         n--;
+        int oldSize = inCart.size();
         tempProduct = inCart.get(n);
         logger.trace("Entered delProduct with index {}", n);
         oldPrice = totalPrice;
@@ -82,8 +83,7 @@ public class Cart {
         inCart.remove(n);
 
         //Check if cart is empty (removed for sure)
-        //Compare the ID of the product within the original index is the same as the stored product's ID to see if they're different
-        if(inCart.isEmpty() || (inCart.get(n).getID() == tempProduct.getID()))
+        if(inCart.size() == oldSize - 1)
             logger.debug("Product {} successfully removed from productList", tempProduct.getName());
         else
             logger.error("Failed to remove product {}", tempProduct);

@@ -80,7 +80,9 @@ public class Catalog {
      * @param q the q
      */
     public void searchProduct(String q) {
+        logger.trace("Entered searchProduct with query {}", q);
         this.queryList = new ArrayList<>();
+
         productList.forEach((p) -> {
             if(p.getName().contains(q) || p.getBrand().contains(q) || p.getCategory().contains(q)) {
                 queryList.add(p);
@@ -89,7 +91,12 @@ public class Catalog {
 
         });
 
-        queryList.forEach((p) -> { p.outputInfo(); });
+        int counter = 1;
+        for(Product p : queryList) {
+            System.out.println("\nProduct #" + (counter) + ":");
+            p.outputInfo();
+            counter++;
+        }
     }
 
     /**

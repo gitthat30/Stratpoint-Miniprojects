@@ -30,10 +30,10 @@ public class Product {
      * Outputs the info of the product for the user to see.
      */
     public void outputInfo() {
-        System.out.println("Product Name: " + this.name);
-        System.out.println("Price: " + price);
-        System.out.println("Category " + category);
-        System.out.println("Brand: " + brand + "\n");
+        System.out.print("Product Name: " + this.name);
+        System.out.print(" | Price: " + price);
+        System.out.print(" | Category " + category);
+        System.out.print(" | Brand: " + brand + "\n");
     }
 
 

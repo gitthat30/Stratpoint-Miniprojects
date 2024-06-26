@@ -1209,3 +1209,109 @@
 14:52:24.661 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Red
 14:52:24.663 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Red Hat successfully added to queryList.
 14:52:24.663 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Lipstick Red successfully added to queryList.
+15:43:57.471 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:43:57.473 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:43:57.474 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:43:57.485 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:43:57.485 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:43:57.485 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:43:57.492 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:43:57.492 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:43:57.492 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:43:57.493 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:43:57.494 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:43:57.494 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:44:41.117 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:44:41.136 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Mentos 100 Pack
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Mentos 100 Pack to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Coke Zero
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Coke Zero to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product KitKat Assorted Pack
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product KitKat Assorted Pack to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Pepsi Max
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Pepsi Max to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Oreo Cookies
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Oreo Cookies to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Samsung Z20
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Samsung Z20 to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product MyPhone ZZZ
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product MyPhone ZZZ to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Sony Xperia XZ
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Sony Xperia XZ to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Google Pixel 5
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Google Pixel 5 to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product HP Pavilion Laptop
+15:44:41.137 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product HP Pavilion Laptop to productList
+15:44:41.137 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Red Hat
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Red Hat to productList
+15:44:41.139 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product White T-Shirt
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product White T-Shirt to productList
+15:44:41.139 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Chanel No. 5
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Chanel No. 5 to productList
+15:44:41.139 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Lipstick Red
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Lipstick Red to productList
+15:44:41.139 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product L'OrÃ©al Paris Mascara
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product L'OrÃ©al Paris Mascara to productList
+15:44:41.139 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Maybelline Foundation
+15:44:41.139 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Maybelline Foundation to productList
+15:45:15.812 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:45:15.815 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:45:15.815 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:45:15.824 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:45:15.824 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:45:15.825 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:45:15.825 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered delProduct with index 0
+15:45:15.825 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been decreased to 0.0. Previous value was 1000.0.
+15:45:15.825 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product successfully removed from productList
+15:45:15.827 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:45:15.827 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:45:15.827 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:45:15.828 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+15:45:15.829 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+15:45:15.829 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+15:45:39.497 [stratpoint.samuelnieva.Main.main()] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+15:45:39.503 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Mentos 100 Pack
+15:45:39.505 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Mentos 100 Pack to productList
+15:45:39.505 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Coke Zero
+15:45:39.505 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Coke Zero to productList
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product KitKat Assorted Pack
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product KitKat Assorted Pack to productList
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Pepsi Max
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Pepsi Max to productList
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Oreo Cookies
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Oreo Cookies to productList
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Samsung Z20
+15:45:39.506 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Samsung Z20 to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product MyPhone ZZZ
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product MyPhone ZZZ to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Sony Xperia XZ
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Sony Xperia XZ to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Google Pixel 5
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Google Pixel 5 to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product HP Pavilion Laptop
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product HP Pavilion Laptop to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Red Hat
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Red Hat to productList
+15:45:39.507 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product White T-Shirt
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product White T-Shirt to productList
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Chanel No. 5
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Chanel No. 5 to productList
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Lipstick Red
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Lipstick Red to productList
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product L'Oréal Paris Mascara
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product L'Oréal Paris Mascara to productList
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Maybelline Foundation
+15:45:39.508 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Maybelline Foundation to productList
+15:45:44.033 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Maybelline Foundation
+15:45:44.033 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Maybelline Foundation added to productList
+15:45:44.034 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 3500.0. Previous value was 0.0.
+15:45:49.354 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Oreo Cookies
+15:45:49.354 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Oreo Cookies added to productList
+15:45:49.354 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 3700.0. Previous value was 3500.0.
+15:46:01.140 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query 5
+15:46:01.141 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Google Pixel 5 successfully added to queryList.
+15:46:01.141 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Chanel No. 5 successfully added to queryList.
+15:46:06.001 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+15:46:06.001 [stratpoint.samuelnieva.Main.main()] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Google Pixel 5
+15:46:06.001 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Google Pixel 5 added to productList
+15:46:06.001 [stratpoint.samuelnieva.Main.main()] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 21700.0. Previous value was 3700.0.

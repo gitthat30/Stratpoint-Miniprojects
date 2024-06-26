@@ -108,7 +108,7 @@ public class CatalogServiceIMPL {
      * @return The product object to be added to the cart
      */
 //This method is only to be called after calling searchProduct
-    public ProductEntity addFromQuery(int n) {
+    public ProductEntity getFromQuery(int n) {
         logger.trace("Entering addFromQuery with index {}", n);
         tempProduct = queryList.get(n);
 

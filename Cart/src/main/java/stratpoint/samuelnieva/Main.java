@@ -69,7 +69,7 @@ public class Main {
                         switch (choice) {
                             case 1:
                                 System.out.println("\nSelect product to add (By number):");
-                                testCart.addProduct(testCatalog.addFromQuery(sc.nextInt() - 1));
+                                testCart.addProduct(testCatalog.getFromQuery(sc.nextInt() - 1));
                                 break;
                             case 2:
                                 break;

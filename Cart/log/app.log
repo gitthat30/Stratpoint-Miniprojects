@@ -1501,3 +1501,173 @@
 16:28:43.730 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query red
 16:28:43.731 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Red Hat successfully added to queryList.
 16:28:43.731 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Lipstick Red successfully added to queryList.
+16:58:54.538 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:58:54.541 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:58:54.541 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:58:54.550 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:58:54.551 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:58:54.551 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:58:54.551 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered delProduct with index 0
+16:58:54.551 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been decreased to 0.0. Previous value was 1000.0.
+16:58:54.551 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product successfully removed from productList
+16:58:54.552 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:58:54.552 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:58:54.552 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:58:54.553 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:58:54.553 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:58:54.553 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:58:54.557 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:58:54.557 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:58:54.559 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:58:54.559 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:58:54.559 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+16:58:54.560 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+16:58:54.565 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:58:54.565 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:58:54.565 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:58:54.565 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:58:54.567 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:58:54.567 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:58:54.567 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered delProduct with index 0
+16:58:54.567 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully removed from productList
+16:58:54.576 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:58:54.576 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:58:54.576 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+16:58:54.576 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+16:58:54.578 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:58:54.578 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:59:47.329 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:59:47.332 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:59:47.332 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:59:47.341 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:59:47.342 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:59:47.342 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:59:47.348 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:59:47.349 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:59:47.349 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:59:47.350 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+16:59:47.350 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+16:59:47.350 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+16:59:47.356 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:59:47.356 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:59:47.357 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:59:47.357 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:59:47.357 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+16:59:47.358 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+16:59:47.362 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:59:47.362 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:59:47.362 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:59:47.362 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+16:59:47.363 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:59:47.363 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:59:47.363 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered delProduct with index 0
+16:59:47.364 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully removed from productList
+16:59:47.365 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:59:47.365 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+16:59:47.365 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+16:59:47.365 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+16:59:47.366 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+16:59:47.367 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:01:46.280 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:01:46.283 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:01:46.283 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:01:46.290 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:01:46.290 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:01:46.290 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:01:46.291 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered delProduct with index 0
+17:01:46.291 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been decreased to 0.0. Previous value was 1000.0.
+17:01:46.291 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product successfully removed from productList
+17:01:46.292 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:01:46.292 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:01:46.292 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:01:46.294 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:01:46.295 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:01:46.295 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:01:46.302 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:01:46.302 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:01:46.304 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:01:46.304 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:01:46.304 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+17:01:46.305 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+17:01:46.311 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:01:46.311 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:01:46.311 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:01:46.311 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:01:46.313 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:01:46.313 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:01:46.313 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered delProduct with index 0
+17:01:46.313 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully removed from productList
+17:01:46.323 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:01:46.323 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:01:46.324 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+17:01:46.324 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+17:01:46.325 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:01:46.326 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:02:19.947 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+17:02:19.961 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Mentos 100 Pack
+17:02:19.962 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Mentos 100 Pack to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Coke Zero
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Coke Zero to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product KitKat Assorted Pack
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product KitKat Assorted Pack to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Pepsi Max
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Pepsi Max to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Oreo Cookies
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Oreo Cookies to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Samsung Z20
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Samsung Z20 to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product MyPhone ZZZ
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product MyPhone ZZZ to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Sony Xperia XZ
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Sony Xperia XZ to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Google Pixel 5
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Google Pixel 5 to productList
+17:02:19.963 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product HP Pavilion Laptop
+17:02:19.963 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product HP Pavilion Laptop to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Red Hat
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Red Hat to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product White T-Shirt
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product White T-Shirt to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Chanel No. 5
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Chanel No. 5 to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Lipstick Red
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Lipstick Red to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product L'Oréal Paris Mascara
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product L'Oréal Paris Mascara to productList
+17:02:19.964 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Maybelline Foundation
+17:02:19.964 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Maybelline Foundation to productList
+17:02:39.488 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:02:39.490 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:02:39.491 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:02:39.502 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:02:39.502 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:02:39.502 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:02:39.502 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered delProduct with index 0
+17:02:39.502 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been decreased to 0.0. Previous value was 1000.0.
+17:02:39.502 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product successfully removed from productList
+17:02:39.503 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:02:39.503 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:02:39.503 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:02:39.504 [main] TRACE s.s.S.IMPL.CartServiceIMPL -- Entered addProduct with product Test Product
+17:02:39.504 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Product Test Product added to productList
+17:02:39.504 [main] DEBUG s.s.S.IMPL.CartServiceIMPL -- Total Price of Cart has been increased to 1000.0. Previous value was 0.0.
+17:02:39.510 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:02:39.510 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:02:39.512 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:02:39.512 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:02:39.513 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+17:02:39.513 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+17:02:39.516 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:02:39.516 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:02:39.516 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:02:39.516 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addFromQuery with index 0
+17:02:39.517 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:02:39.517 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:02:39.517 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered delProduct with index 0
+17:02:39.517 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully removed from productList
+17:02:39.518 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:02:39.518 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList
+17:02:39.518 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entered searchProduct with query Test Product
+17:02:39.518 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Product Test Product successfully added to queryList.
+17:02:39.520 [main] TRACE s.s.S.IMPL.CatalogServiceIMPL -- Entering addProduct with the product Test Product
+17:02:39.520 [main] DEBUG s.s.S.IMPL.CatalogServiceIMPL -- Added product Test Product to productList

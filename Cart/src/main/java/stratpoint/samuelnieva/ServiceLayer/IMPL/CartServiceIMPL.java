@@ -28,8 +28,6 @@ public class CartServiceIMPL implements CartService {
     }
 
     public void viewProducts() {
-        System.out.println("List of products:");
-
         int counter = 0;
         for(ProductEntity p : inCart) {
             System.out.println("\nProduct #" + (counter+1) + ":");

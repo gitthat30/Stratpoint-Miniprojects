@@ -1,7 +1,7 @@
 package stratpoint.samuelnieva.EntityLayer;
 
 /**
- * The Product class. A simple class that contains information related to a product
+ * The Product class represents a product from an e-commerce website and contains information related to a product
  * which can then be searched for, added and deleted from the lists in the Cart and Catalog classes.
  */
 public class ProductEntity {

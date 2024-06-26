@@ -85,7 +85,7 @@ public class CatalogServiceIMPL {
         this.queryList = new ArrayList<>();
 
         productList.forEach((p) -> {
-            if(p.getName().contains(q) || p.getBrand().contains(q) || p.getCategory().contains(q)) {
+            if(p.getName().toLowerCase().contains(q.toLowerCase()) || p.getBrand().toLowerCase().contains(q.toLowerCase()) || p.getCategory().toLowerCase().contains(q.toLowerCase())) {
                 queryList.add(p);
                 logger.debug("Product {} successfully added to queryList.", p.getName());
             }

@@ -102,7 +102,7 @@ public class Library {
     }
 
     /**
-     * Gets list books.
+     * Gets the listBooks object being used by the Library class.
      *
      * @return the list books
      */

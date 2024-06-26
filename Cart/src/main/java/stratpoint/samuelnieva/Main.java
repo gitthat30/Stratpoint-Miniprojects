@@ -33,6 +33,7 @@ public class Main {
                     System.out.println("Items in the cart:");
                     testCart.viewProducts();
                 }
+                System.out.println("\nCart's total price: " + testCart.getTotalPrice());
 
                 choice = 0;
                 while (choice < 1 || choice > 4) {

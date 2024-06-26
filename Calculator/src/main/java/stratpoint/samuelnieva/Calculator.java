@@ -1,26 +1,85 @@
 package stratpoint.samuelnieva;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Stack;
 
+/**
+ * The Calculator class. This class contains methods to perform basic
+ * arithmetic operations. The methods are:
+ * <ul>
+ *     <li>Add</li>
+ *     <li>Subtract</li>
+ *     <li>Multiply</li>
+ *     <li>Divide</li>
+ * </ul>
+ *
+ * The class also contains a method for parsing and calculating an expression
+ * in the form of a string. The methods used for this are:
+ * <ul>
+ *     <li>validateString</li>
+ *     <li>calculateString</li>
+ * </ul>
+ */
 public class Calculator {
+    Logger logger = LoggerFactory.getLogger(Calculator.class);
 
+    /**
+     * This method adds two numbers and returns the result as a double.
+     *
+     * @param x The first number
+     * @param y The second number
+     * @return The sum of the two numbers
+     */
     public double addNum(double x, double y) {
+        logger.debug("Adding numbers: {} and {}. Result: {}", x, y, x + y);
         return x + y;
     }
 
+    /**
+     * This method subtracts two numbers and returns the result as a double.
+     *
+     * @param x The first number
+     * @param y The second number
+     * @return The difference of the two numbers
+     */
     public double subNum(double x, double y) {
+        logger.debug("Subtracting numbers: {} and {}. Result: {}", x, y, x - y);
         return x - y;
     }
 
+    /**
+     * This method divides two numbers and returns the result as a double.
+     *
+     * @param x The dividend
+     * @param y The divisor
+     * @return The quotient of the two numbers
+     */
     public double divNum(double x, double y) {
-        //Add exception in here next time
+        logger.debug("Dividing numbers: {} and {}. Result: {}", x, y, x / y);
         return x / y;
     }
 
+    /**
+     * This method multiplies two numbers and returns the result as a double.
+     *
+     * @param x The first number
+     * @param y The second number
+     * @return The product of the two numbers
+     */
     public double mulNum(double x, double y) {
+        logger.debug("Multiplying numbers: {} and {}. Result: {}", x, y, x * y);
         return x * y;
     }
 
+    /**
+     * Validates the expression String by checking if the number of
+     * opening and closing parentheses are equal.
+     *
+     * @param e The expression
+     * @return True if the expression is valid, false otherwise
+     */
     public boolean validateString(String e) {
         char[] c = e.toCharArray();
         boolean firstPar = true;
@@ -50,6 +109,13 @@ public class Calculator {
             return false;
     }
 
+    /**
+     * This method parses and calculates an expression in the form of a
+     * string.
+     *
+     * @param e The expression
+     * @return The result of the expression
+     */
     public double calculateString(String e) {
         double total = 0;
 

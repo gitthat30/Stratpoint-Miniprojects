@@ -93,6 +93,8 @@ public class Library {
 
     /**
      * Deletes a book from the list using a given index. The index is zero-based.
+     *
+     * @param index The index of the book to be deleted
      */
     public void delBook(int index) {
         listBooks.remove(index);

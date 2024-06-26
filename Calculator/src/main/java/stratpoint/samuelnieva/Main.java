@@ -3,7 +3,17 @@ package stratpoint.samuelnieva;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * The Main class. This class calls the Calculator class, and allows the user
+ * to perform basic arithmetic operations by parsing input and using it as
+ * parameters for the Calculator class.
+ */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator calc = new Calculator();

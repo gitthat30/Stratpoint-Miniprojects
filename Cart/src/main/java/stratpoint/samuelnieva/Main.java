@@ -51,7 +51,8 @@ public class Main {
 
                     case 2:
                         System.out.println("\nPlease enter your query: ");
-                        testCatalog.searchProduct(sc.next());
+                        sc.nextLine();
+                        testCatalog.searchProduct(sc.nextLine());
 
                         System.out.println("\nWould you like to: ");
                         System.out.println("1 - Add a product from this list");

@@ -24,3 +24,8 @@
 10:40:49.413 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
 10:43:08.227 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
 10:47:09.538 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+10:54:48.647 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+10:55:33.227 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+10:59:42.088 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+11:00:20.422 [main] DEBUG stratpoint.samuelnieva.Library -- Successfully removed book in index 0 from listBooks
+11:00:27.064 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Main -- Start of main method:

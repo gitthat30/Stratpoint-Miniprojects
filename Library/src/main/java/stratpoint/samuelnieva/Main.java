@@ -73,11 +73,12 @@ public class Main {
                 case 3:
                     int choice3 = 0;
 
-                    while(choice3 < 1 || choice3 > 3) {
+                    while(choice3 < 1 || choice3 > 4) {
                         System.out.println("\nSelect type of book to add:");
                         System.out.println("1 - Novel");
                         System.out.println("2 - Biography");
-                        System.out.println("3 - Manga\n");
+                        System.out.println("3 - Manga");
+                        System.out.println("4 - Return\n");
                         System.out.println("Choice: ");
 
                         try {

@@ -1,7 +1,8 @@
-package stratpoint.samuelnieva;
+package stratpoint.samuelnieva.ServiceLayer.IMPL;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import stratpoint.samuelnieva.EntityLayer.ProductEntity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,19 +11,19 @@ import java.util.List;
  * The type Catalog. This contains the available products that can be added to the
  * Cart.
  */
-public class Catalog {
+public class CatalogServiceIMPL {
     private Logger logger;
-    private List<Product> productList;
-    private List<Product> queryList;
-    private Product tempProduct; //To store product objects for logging
+    private List<ProductEntity> productList;
+    private List<ProductEntity> queryList;
+    private ProductEntity tempProduct; //To store product objects for logging
 
     /**
      * Instantiates a new Catalog.
      *
      * @param p The list of products to be used for the Catalog
      */
-    Catalog(List<Product> p) {
-        logger = LoggerFactory.getLogger(Catalog.class);
+    public CatalogServiceIMPL(List<ProductEntity> p) {
+        logger = LoggerFactory.getLogger(CatalogServiceIMPL.class);
         this.productList = p;
     }
 
@@ -34,7 +35,7 @@ public class Catalog {
         System.out.println("\nList of products:");
 
         int counter = 0;
-        for(Product p : productList) {
+        for(ProductEntity p : productList) {
             System.out.println("\nProduct #" + (counter+1) + ":");
             p.outputInfo();
             counter++;
@@ -46,7 +47,7 @@ public class Catalog {
      *
      * @param p The Product object to be added.
      */
-    public void addProduct(Product p) {
+    public void addProduct(ProductEntity p) {
         logger.trace("Entering addProduct with the product {}", p.getName());
 
         productList.add(p);
@@ -92,7 +93,7 @@ public class Catalog {
         });
 
         int counter = 1;
-        for(Product p : queryList) {
+        for(ProductEntity p : queryList) {
             System.out.println("\nProduct #" + (counter) + ":");
             p.outputInfo();
             counter++;
@@ -107,7 +108,7 @@ public class Catalog {
      * @return The product object to be added to the cart
      */
 //This method is only to be called after calling searchProduct
-    public Product addFromQuery(int n) {
+    public ProductEntity addFromQuery(int n) {
         logger.trace("Entering addFromQuery with index {}", n);
         tempProduct = queryList.get(n);
 
@@ -119,7 +120,7 @@ public class Catalog {
      *
      * @return the product list
      */
-    public List<Product> getProductList() {
+    public List<ProductEntity> getProductList() {
         return productList;
     }
 
@@ -128,7 +129,7 @@ public class Catalog {
      *
      * @param productList the product list
      */
-    public void setProductList(List<Product> productList) {
+    public void setProductList(List<ProductEntity> productList) {
         this.productList = productList;
     }
 
@@ -137,7 +138,7 @@ public class Catalog {
      *
      * @return the query list
      */
-    public List<Product> getQueryList() {
+    public List<ProductEntity> getQueryList() {
         return queryList;
     }
 
@@ -146,7 +147,7 @@ public class Catalog {
      *
      * @param queryList the query list
      */
-    public void setQueryList(List<Product> queryList) {
+    public void setQueryList(List<ProductEntity> queryList) {
         this.queryList = queryList;
     }
 
@@ -156,7 +157,7 @@ public class Catalog {
      * @param n the n
      * @return the from product list
      */
-    public Product getFromProductList(int n) {
+    public ProductEntity getFromProductList(int n) {
         return productList.get(n);
     }
 }

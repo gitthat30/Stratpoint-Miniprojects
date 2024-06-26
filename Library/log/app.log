@@ -255,3 +255,13 @@
 13:35:01.663 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
 13:35:01.663 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
 13:35:01.663 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:45:21.508 [main] DEBUG stratpoint.samuelnieva.Library -- Successfully removed book in index 0 from listBooks
+13:45:58.392 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:46:13.576 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter One has entered the initial for loop with 15 books in listBooks
+13:46:13.577 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:46:13.578 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:46:13.578 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:47:01.690 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter Steve has entered the initial for loop with 15 books in listBooks
+13:47:01.690 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:47:01.690 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:47:01.691 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList

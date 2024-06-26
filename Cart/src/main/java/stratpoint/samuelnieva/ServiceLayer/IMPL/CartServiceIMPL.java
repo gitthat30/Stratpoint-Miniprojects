@@ -1,54 +1,44 @@
-package stratpoint.samuelnieva;
+package stratpoint.samuelnieva.ServiceLayer.IMPL;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import stratpoint.samuelnieva.EntityLayer.ProductEntity;
+import stratpoint.samuelnieva.ServiceLayer.CartService;
 
 /**
- * The class cart facilitates the methods to add and delete products from it, as well
+ * This class implements the Cart interface. It facilitates the methods to add and delete products from it, as well
  * as displaying the contents of the cart.
  */
-public class Cart {
+public class CartServiceIMPL implements CartService {
     private final Logger logger;
-    private List<Product> inCart;
+    private List<ProductEntity> inCart;
     private double totalPrice;
     private double oldPrice; //Var to store to log
-    private Product tempProduct; //Var to store object for logging
+    private ProductEntity tempProduct; //Var to store object for logging
 
     /**
      * Instantiates a new Cart.
      */
-    Cart() {
-        logger = LoggerFactory.getLogger(Cart.class);
+    public CartServiceIMPL() {
+        logger = LoggerFactory.getLogger(CartServiceIMPL.class);
         inCart = new ArrayList<>();
         totalPrice = 0;
     }
 
-
-    /**
-     * Iterates through the list of products in the cart and uses the outputInfo
-     * function to display the information on the product.
-     */
     public void viewProducts() {
         System.out.println("List of products:");
 
         int counter = 0;
-        for(Product p : inCart) {
+        for(ProductEntity p : inCart) {
             System.out.println("\nProduct #" + (counter+1) + ":");
             p.outputInfo();
             counter++;
         }
     }
 
-
-    /**
-     * Adds a product to the productList variable. In addition to this, the method
-     * also adds the price of the added product ot the totalPrice of the cart.
-     *
-     * @param p   The Product object to be added to the list
-     */
-    public void addProduct(Product p) {
+    public void addProduct(ProductEntity p) {
         logger.trace("Entered addProduct with product {}", p.getName());
 
         oldPrice = totalPrice;
@@ -63,13 +53,6 @@ public class Cart {
         logger.debug("Total Price of Cart has been increased to {}. Previous value was {}.", totalPrice, oldPrice);
     }
 
-    /**
-     * Deletes a product from the list. The list used in this function is the
-     * variable named: productList. This method also subtracts the price of that
-     * product from the totalPrice of the cart.
-     *
-     * @param n  The index of the product to be removed from the list (First index = 1).
-     */
     public void delProduct(int n) {
         n--;
         int oldSize = inCart.size();
@@ -90,22 +73,10 @@ public class Cart {
 
     }
 
-    /**
-     * Returns the total price of all items in the cart. The cart's total
-     * is increased and decreased in the addProduct and delProduct to remove the
-     * need to iterate through the list and tally the price.
-     *
-     * @return the total price
-     */
     public double getTotalPrice() {
         return totalPrice;
     }
 
-    /**
-     * Gets cart size.
-     *
-     * @return the cart size
-     */
     public int getCartSize() {
         return inCart.size();
     }

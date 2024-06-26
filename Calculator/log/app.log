@@ -13,3 +13,16 @@
 12:58:05.309 [main] DEBUG stratpoint.samuelnieva.Calculator -- Multiplying numbers: 3.0 and 2.0. Result: 6.0
 12:58:05.313 [main] DEBUG stratpoint.samuelnieva.Calculator -- Subtracting numbers: 5.0 and 4.0. Result: 1.0
 12:58:19.496 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 5.0 and 3.0. Result: 8.0
+13:42:18.109 [main] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 3.0 and 2.0. Result: 5.0
+13:42:18.120 [main] DEBUG stratpoint.samuelnieva.Calculator -- Dividing numbers: 10.0 and 5.0. Result: 2.0
+13:42:18.126 [main] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 2.0 and 1.0. Result: 3.0
+13:42:18.126 [main] DEBUG stratpoint.samuelnieva.Calculator -- Dividing numbers: 5.0 and 2.0. Result: 2.5
+13:42:18.126 [main] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 2.5 and 1.0. Result: 3.5
+13:42:18.128 [main] DEBUG stratpoint.samuelnieva.Calculator -- Multiplying numbers: 3.0 and 2.0. Result: 6.0
+13:42:18.131 [main] DEBUG stratpoint.samuelnieva.Calculator -- Subtracting numbers: 5.0 and 4.0. Result: 1.0
+13:42:44.930 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 5.0 and 5.0. Result: 10.0
+13:42:48.504 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Subtracting numbers: 5.0 and 2.0. Result: 3.0
+13:43:12.182 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Dividing numbers: 2.0 and 2.0. Result: 1.0
+13:43:12.186 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 1.0 and 1.0. Result: 2.0
+13:43:21.337 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Subtracting numbers: 3.0 and 2.0. Result: 1.0
+13:43:21.337 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Calculator -- Adding numbers: 1.0 and 1.0. Result: 2.0

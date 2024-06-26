@@ -1,10 +1,10 @@
-package stratpoint.samuelnieva;
+package stratpoint.samuelnieva.EntityLayer;
 
 /**
  * The Product class. A simple class that contains information related to a product
  * which can then be searched for, added and deleted from the lists in the Cart and Catalog classes.
  */
-public class Product {
+public class ProductEntity {
     private double price;
     private String name;
     private String category;
@@ -19,7 +19,7 @@ public class Product {
      * @param category The category of the product
      * @param brand    The brand of the product
      */
-    public Product(double price, String name, String category, String brand) {
+    public ProductEntity(double price, String name, String category, String brand) {
         this.price = price;
         this.name = name;
         this.category = category;

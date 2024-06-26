@@ -2,6 +2,9 @@ package stratpoint.samuelnieva;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import stratpoint.samuelnieva.EntityLayer.ProductEntity;
+import stratpoint.samuelnieva.ServiceLayer.IMPL.CartServiceIMPL;
+import stratpoint.samuelnieva.ServiceLayer.IMPL.CatalogServiceIMPL;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,16 +18,15 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        List<Product> testProducts = new ArrayList<>();
+        List<ProductEntity> testProducts = new ArrayList<>();
 
-        Cart testCart = new Cart();
-        Catalog testCatalog = new Catalog(testProducts);
+        CartServiceIMPL testCart = new CartServiceIMPL();
+        CatalogServiceIMPL testCatalog = new CatalogServiceIMPL(testProducts);
         Main.addSampleData(testCatalog);
 
         //Main program loop
         int choice = 0;
         while (true) {
-
             try {
                 System.out.println("\nYour cart currently has " + testCart.getCartSize() + " items in it.\n");
                 if (testCart.getCartSize() != 0) {
@@ -51,6 +53,7 @@ public class Main {
 
                     case 2:
                         System.out.println("\nPlease enter your query: ");
+
                         sc.nextLine();
                         testCatalog.searchProduct(sc.nextLine());
 
@@ -105,7 +108,7 @@ public class Main {
         }
     }
 
-    public static void addSampleData(Catalog c) {
+    public static void addSampleData(CatalogServiceIMPL c) {
         /** Categories:
          * 0 - F&B
          * 1 - Elec
@@ -113,21 +116,21 @@ public class Main {
          */
         String[] categories = {"Food & Beverages", "Electronics", "Cosmetics"};
 
-        c.addProduct(new Product(100, "Mentos 100 Pack", categories[0], "Mentos"));
-        c.addProduct(new Product(50, "Coke Zero", categories[0], "Coca Cola"));
-        c.addProduct(new Product(120, "KitKat Assorted Pack", categories[0], "Nestle"));
-        c.addProduct(new Product(75, "Pepsi Max", categories[0], "PepsiCo"));
-        c.addProduct(new Product(200, "Oreo Cookies", categories[0], "Mondelez"));
-        c.addProduct(new Product(10000, "Samsung Z20", categories[1], "Samsung"));
-        c.addProduct(new Product(20000, "MyPhone ZZZ", categories[1], "Apple"));
-        c.addProduct(new Product(15000, "Sony Xperia XZ", categories[1], "Sony"));
-        c.addProduct(new Product(18000, "Google Pixel 5", categories[1], "Google"));
-        c.addProduct(new Product(25000, "HP Pavilion Laptop", categories[1], "HP"));
-        c.addProduct(new Product(2000, "Red Hat", categories[2], "Gucci"));
-        c.addProduct(new Product(5000, "White T-Shirt", categories[2], "Supreme"));
-        c.addProduct(new Product(2500, "Chanel No. 5", categories[2], "Chanel"));
-        c.addProduct(new Product(4500, "Lipstick Red", categories[2], "MAC Cosmetics"));
-        c.addProduct(new Product(3000, "L'Oréal Paris Mascara", categories[2], "L'Oréal"));
-        c.addProduct(new Product(3500, "Maybelline Foundation", categories[2], "Maybelline"));
+        c.addProduct(new ProductEntity(100, "Mentos 100 Pack", categories[0], "Mentos"));
+        c.addProduct(new ProductEntity(50, "Coke Zero", categories[0], "Coca Cola"));
+        c.addProduct(new ProductEntity(120, "KitKat Assorted Pack", categories[0], "Nestle"));
+        c.addProduct(new ProductEntity(75, "Pepsi Max", categories[0], "PepsiCo"));
+        c.addProduct(new ProductEntity(200, "Oreo Cookies", categories[0], "Mondelez"));
+        c.addProduct(new ProductEntity(10000, "Samsung Z20", categories[1], "Samsung"));
+        c.addProduct(new ProductEntity(20000, "MyPhone ZZZ", categories[1], "Apple"));
+        c.addProduct(new ProductEntity(15000, "Sony Xperia XZ", categories[1], "Sony"));
+        c.addProduct(new ProductEntity(18000, "Google Pixel 5", categories[1], "Google"));
+        c.addProduct(new ProductEntity(25000, "HP Pavilion Laptop", categories[1], "HP"));
+        c.addProduct(new ProductEntity(2000, "Red Hat", categories[2], "Gucci"));
+        c.addProduct(new ProductEntity(5000, "White T-Shirt", categories[2], "Supreme"));
+        c.addProduct(new ProductEntity(2500, "Chanel No. 5", categories[2], "Chanel"));
+        c.addProduct(new ProductEntity(4500, "Lipstick Red", categories[2], "MAC Cosmetics"));
+        c.addProduct(new ProductEntity(3000, "L'Oréal Paris Mascara", categories[2], "L'Oréal"));
+        c.addProduct(new ProductEntity(3500, "Maybelline Foundation", categories[2], "Maybelline"));
     }
 }

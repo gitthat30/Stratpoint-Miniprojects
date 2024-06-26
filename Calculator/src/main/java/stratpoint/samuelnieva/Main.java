@@ -1,5 +1,6 @@
 package stratpoint.samuelnieva;
 
+//Swagger - Javadoc
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

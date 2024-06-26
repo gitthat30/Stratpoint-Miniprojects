@@ -35,11 +35,11 @@ public class Book {
      * The method that prints the information of the Book to STDOUT.
      */
     public void outputInfo() {
-        System.out.println("Title: " + this.getTitle());
-        System.out.println("Author: " + this.getAuthor());
-        System.out.println("Publisher: " + this.getPublisher());
-        System.out.println("Date Published: " + this.getDatePublished());
-        System.out.println("ISBN: " + this.getISBN());
+        System.out.print("Title: " + this.getTitle());
+        System.out.print(" | Author: " + this.getAuthor());
+        System.out.print(" | Publisher: " + this.getPublisher());
+        System.out.print(" | Date Published: " + this.getDatePublished());
+        System.out.print(" | ISBN: " + this.getISBN());
 
     }
 

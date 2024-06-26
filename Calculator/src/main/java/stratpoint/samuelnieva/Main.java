@@ -26,7 +26,6 @@ public class Main {
         System.out.println("1 - Simple");
         System.out.println("2 - Expression");
 
-
         while(m != 1 && m != 2) {
             System.out.print("Choice: ");
             try {

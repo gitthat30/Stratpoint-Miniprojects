@@ -28,26 +28,12 @@ public class Main {
         Logger logger = LoggerFactory.getLogger(Main.class);
         logger.debug("Start of main method:");
 
-        //Test Data
-        Manga test1 = new Manga("One Piece", "Eiichiro Oda", "VIZ Media LLC", "September 2, 2003", "978-1569319017", "Eiichiro Oda", "1", "Adventure");
-        Manga test2 = new Manga("Death Note", "Tsugumi Ohba", "VIZ Media LLC", "October 10, 2005", "978-1421501680", "Takeshi Obata", "1", "Mystery");
-
-        Biography test3 = new Biography("Steve Jobs: A Biography (Greenwood Biographies)", "Michael B. Becraft", "Greenwood", "November 21, 2016", "978-1610694964", "Steve Jobs");
-        Biography test4 = new Biography("Alexander Hamilton", "Ron Chernow", "Penguin Books", "March 29, 2005", "978-0143034759", "Alexander Hamilton");
-
-        Novel test5 = new Novel("Don Quixote", " Miguel De Cervantes Saavedra", "Penguin Classics", "February 25, 2003", "978-0142437230", "Satire");
-
         Scanner sc = new Scanner(System.in);
 
         List<Book> books = new ArrayList<>();
-
-        books.add(test1);
-        books.add(test2);
-        books.add(test3);
-        books.add(test4);
-        books.add(test5);
-
         Library l = new Library(books);
+
+        Main.addSampleBooks(l);
 
         try {
             while(true) {
@@ -120,6 +106,29 @@ public class Main {
             System.out.println("Invalid input. Please try again\n");
         }
 
+    }
+
+    /**
+     * This method generates sample data for the given Library object
+     * @param l Library object to be added sample data to
+     */
+    public static void addSampleBooks(Library l) {
+        //Test Data
+        l.addBook(new Manga("One Piece", "Eiichiro Oda", "VIZ Media LLC", "September 2, 2003", "978-1569319017", "Eiichiro Oda", "1", "Adventure"));
+        l.addBook(new Manga("Death Note", "Tsugumi Ohba", "VIZ Media LLC", "October 10, 2005", "978-1421501680", "Takeshi Obata", "1", "Mystery"));
+        l.addBook(new Biography("Steve Jobs: A Biography (Greenwood Biographies)", "Michael B. Becraft", "Greenwood", "November 21, 2016", "978-1610694964", "Steve Jobs"));
+        l.addBook(new Biography("Alexander Hamilton", "Ron Chernow", "Penguin Books", "March 29, 2005", "978-0143034759", "Alexander Hamilton"));
+        l.addBook(new Novel("Don Quixote", " Miguel De Cervantes Saavedra", "Penguin Classics", "February 25, 2003", "978-0142437230", "Satire"));
+        l.addBook(new Manga("Naruto", "Masashi Kishimoto", "VIZ Media LLC", "August 6, 2003", "978-1569319000", "Masashi Kishimoto", "1", "Action"));
+        l.addBook(new Manga("Attack on Titan", "Hajime Isayama", "Kodansha Comics", "March 17, 2010", "978-1612620244", "Hajime Isayama", "1", "Fantasy"));
+        l.addBook(new Biography("Becoming", "Michelle Obama", "Crown Publishing Group", "November 13, 2018", "978-1524763138", "Michelle Obama"));
+        l.addBook(new Biography("Leonardo da Vinci", "Walter Isaacson", "Simon & Schuster", "October 17, 2017", "978-1501139154", "Leonardo da Vinci"));
+        l.addBook(new Novel("1984", "George Orwell", "Signet Classics", "July 1, 1950", "978-0451524935", "Dystopian fiction"));
+        l.addBook(new Manga("My Hero Academia", "Kohei Horikoshi", "VIZ Media LLC", "November 4, 2014", "978-1421582696", "Kohei Horikoshi", "1", "Superhero"));
+        l.addBook(new Manga("Tokyo Ghoul", "Sui Ishida", "VIZ Media LLC", "June 16, 2015", "978-1421580364", "Sui Ishida", "1", "Horror"));
+        l.addBook(new Biography("Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", "Ashlee Vance", "Ecco", "May 19, 2015", "978-0062301239", "Elon Musk"));
+        l.addBook(new Biography("The Diary of a Young Girl", "Anne Frank", "Bantam", "June 1, 1993", "978-0553296983", "Anne Frank"));
+        l.addBook(new Novel("Pride and Prejudice", "Jane Austen", "Penguin Classics", "December 31, 2002", "978-0141439518", "Romance"));
     }
 
     /**

@@ -25,7 +25,7 @@ public class Novel extends Book {
     @Override
     public void outputInfo() {
         super.outputInfo();
-        System.out.println("Genre: " + this.getGenre());
+        System.out.println(" | Genre: " + this.getGenre());
     }
 
     /**

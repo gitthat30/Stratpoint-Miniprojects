@@ -33,9 +33,9 @@ public class Manga extends Book {
     @Override
     public void outputInfo() {
         super.outputInfo();
-        System.out.println("Illustrator: " + this.getIllustrator());
-        System.out.println("Volume Number(s): " + this.getVolume());
-        System.out.println("Genre: " + this.getGenre());
+        System.out.print(" | Illustrator: " + this.getIllustrator());
+        System.out.print(" | Volume Number(s): " + this.getVolume());
+        System.out.println(" | Genre: " + this.getGenre());
     }
 
     /**

@@ -28,7 +28,7 @@ public class Biography extends Book {
     @Override
     public void outputInfo() {
         super.outputInfo();
-        System.out.println("Subject: " + this.getSubject());
+        System.out.println(" | Subject: " + this.getSubject());
     }
 
     /**

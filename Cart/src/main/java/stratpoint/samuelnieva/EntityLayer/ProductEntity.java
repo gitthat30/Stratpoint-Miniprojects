@@ -38,90 +38,90 @@ public class ProductEntity {
 
 
     /**
-     * Gets price.
+     * Getter for the product's price
      *
-     * @return the price
+     * @return The price of the Product
      */
     public double getPrice() {
         return price;
     }
 
     /**
-     * Sets price.
+     * Setter for the product's price
      *
-     * @param price the price
+     * @param price The new price to be set for the product
      */
     public void setPrice(double price) {
         this.price = price;
     }
 
     /**
-     * Gets name.
+     * Getter for the product's name
      *
-     * @return the name
+     * @return The name of the product
      */
     public String getName() {
         return name;
     }
 
     /**
-     * Sets name.
+     * Setter for the product's name
      *
-     * @param name the name
+     * @param name The new name of the product
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     * Gets category.
+     * Getter for the product's category
      *
-     * @return the category
+     * @return The category of the product
      */
     public String getCategory() {
         return category;
     }
 
     /**
-     * Sets category.
+     * Setter for the product's category
      *
-     * @param category the category
+     * @param category The new category of the product
      */
     public void setCategory(String category) {
         this.category = category;
     }
 
     /**
-     * Gets brand.
+     * Getter for the product's brand
      *
-     * @return the brand
+     * @return The brand of the product
      */
     public String getBrand() {
         return brand;
     }
 
     /**
-     * Sets brand.
+     * Setter for the product's brand
      *
-     * @param brand the brand
+     * @param brand The new brand of the product
      */
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
     /**
-     * Gets id.
+     * Getter for the product's ID
      *
-     * @return the id
+     * @return The ID of the product
      */
     public double getID() {
         return ID;
     }
 
     /**
-     * Sets id.
+     * Setter for the product's ID
      *
-     * @param ID the id
+     * @param ID The new ID of the product
      */
     public void setID(double ID) {
         this.ID = ID;

@@ -58,7 +58,7 @@ public class Library {
      * @param query The search query to be used.
      */
     public void searchBooks(String query) {
-
+        logger.debug("searchBooks with parameter {} has entered the initial for loop with {} books in listBooks", query, listBooks.size());
         returnedList.clear();
         logger.debug("returnedList has been cleared.");
 

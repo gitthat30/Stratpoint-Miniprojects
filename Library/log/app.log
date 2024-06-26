@@ -35,3 +35,214 @@
 13:24:43.940 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
 13:25:54.130 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
 13:26:49.853 [main] DEBUG stratpoint.samuelnieva.Library -- Successfully removed book in index 0 from listBooks
+13:28:03.846 [main] DEBUG stratpoint.samuelnieva.Library -- Successfully removed book in index 0 from listBooks
+13:28:09.241 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:28:14.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:28:14.977 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:28:14.978 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:28:14.979 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:28:14.979 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:28:14.979 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:28:14.980 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:28:14.981 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:28:14.981 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:28:14.981 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:28:14.981 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:28:14.981 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:28:18.250 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:28:18.251 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:28:18.252 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:28:18.252 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:28:18.252 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:28:18.252 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:28:18.253 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:28:18.253 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:28:18.253 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:28:18.253 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:28:18.253 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:28:18.974 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:28:18.974 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:28:18.975 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:28:18.975 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:28:18.975 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:28:18.975 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:28:18.976 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:28:18.977 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:28:18.977 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:28:18.977 [stratpoint.samuelnieva.Main.main()] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:28:39.308 [main] DEBUG stratpoint.samuelnieva.Library -- Successfully removed book in index 0 from listBooks
+13:28:50.548 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:28:54.252 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:28:54.254 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:28:54.256 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:28:54.257 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:28:54.257 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:28:54.257 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:28:54.257 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:29:09.660 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:29:16.582 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:29:16.583 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:29:16.584 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:29:16.585 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:29:16.586 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:29:16.586 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:29:16.586 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:29:16.586 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:29:53.560 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:29:59.652 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:29:59.652 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:29:59.654 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:30:44.149 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:30:49.124 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter  has entered the initial for loop with 15 books in listBooks
+13:30:49.126 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:30:49.127 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:30:49.128 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:30:49.128 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:30:49.128 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:31:12.450 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:31:15.113 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter a has entered the initial for loop with 15 books in listBooks
+13:31:15.116 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:31:15.116 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:31:15.117 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:31:15.118 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:31:37.669 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:31:41.601 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter  has entered the initial for loop with 15 books in listBooks
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:31:41.603 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:31:41.604 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:32:03.591 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:32:07.531 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter  has entered the initial for loop with 15 books in listBooks
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:32:07.533 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:32:07.534 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:32:07.535 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:32:52.656 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:32:55.835 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter  has entered the initial for loop with 15 books in listBooks
+13:32:55.837 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Alexander Hamilton has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Don Quixote has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Naruto has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Attack on Titan has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Becoming has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book Leonardo da Vinci has been added to returnedList
+13:32:55.838 [main] DEBUG stratpoint.samuelnieva.Library -- Book 1984 has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- Book My Hero Academia has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- Book Tokyo Ghoul has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- Book The Diary of a Young Girl has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- Book Pride and Prejudice has been added to returnedList
+13:32:55.839 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 15 books in returnedList
+13:33:09.917 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:33:11.996 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter One has entered the initial for loop with 15 books in listBooks
+13:33:11.999 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:33:11.999 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:33:12.000 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:33:20.752 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter One has entered the initial for loop with 15 books in listBooks
+13:33:20.752 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:33:20.752 [main] DEBUG stratpoint.samuelnieva.Library -- Book One Piece has been added to returnedList
+13:33:20.752 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:33:25.410 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter Death has entered the initial for loop with 15 books in listBooks
+13:33:25.411 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:33:25.411 [main] DEBUG stratpoint.samuelnieva.Library -- Book Death Note has been added to returnedList
+13:33:25.411 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:33:30.165 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter Steve has entered the initial for loop with 15 books in listBooks
+13:33:30.165 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:33:30.165 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:33:30.166 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList
+13:33:47.468 [main] DEBUG stratpoint.samuelnieva.Main -- Start of main method:
+13:33:50.335 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks with parameter Steve has entered the initial for loop with 15 books in listBooks
+13:33:50.337 [main] DEBUG stratpoint.samuelnieva.Library -- returnedList has been cleared.
+13:33:50.337 [main] DEBUG stratpoint.samuelnieva.Library -- Book Steve Jobs: A Biography (Greenwood Biographies) has been added to returnedList
+13:33:50.338 [main] DEBUG stratpoint.samuelnieva.Library -- searchBooks has left the initial for loop with 1 books in returnedList

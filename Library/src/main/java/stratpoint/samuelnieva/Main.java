@@ -64,6 +64,8 @@ public class Main {
                 case 2:
                     System.out.println("\nEnter search query:");
 
+
+                    sc.nextLine();
                     String query = sc.nextLine();
                     System.out.println();
 

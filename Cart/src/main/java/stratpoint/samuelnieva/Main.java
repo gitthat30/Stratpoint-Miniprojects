@@ -23,31 +23,28 @@ public class Main {
 
         //Main program loop
         int choice = 0;
-        try {
-            while (true) {
+        while (true) {
+
+            try {
                 System.out.println("\nYour cart currently has " + testCart.getCartSize() + " items in it.\n");
-                if(testCart.getCartSize() != 0) {
+                if (testCart.getCartSize() != 0) {
                     System.out.println("Items in the cart:");
                     testCart.viewProducts();
                 }
 
-                while(choice < 1 || choice > 4) {
-                    try {
-                        System.out.println("\nWhat would you like to do?");
-                        System.out.println("1 - See all products in catalog");
-                        System.out.println("2 - Search for product in catalog");
-                        System.out.println("3 - Add product to cart");
-                        System.out.println("4 - Remove product to cart\n");
-                        System.out.println("Choice: ");
-                        choice = sc.nextInt();
-                    }
-                    catch (Exception e) {
-                        System.out.println("Invalid choice. Please try again.");
-                        sc.next();
-                    }
+                choice = 0;
+                while (choice < 1 || choice > 4) {
+                    System.out.println("\nWhat would you like to do?");
+                    System.out.println("1 - See all products in catalog");
+                    System.out.println("2 - Search for product in catalog");
+                    System.out.println("3 - Add product to cart");
+                    System.out.println("4 - Remove product to cart\n");
+
+                    System.out.println("Choice: ");
+                    choice = sc.nextInt();
                 }
 
-                switch(choice) {
+                switch (choice) {
                     case 1:
                         testCatalog.outputProducts();
                         break;
@@ -61,9 +58,10 @@ public class Main {
                         System.out.println("2 - Return to main menu\n");
 
                         System.out.println("Choice: ");
+
                         choice = sc.nextInt();
 
-                        switch(choice) {
+                        switch (choice) {
                             case 1:
                                 System.out.println("\nSelect product to add (By number):");
                                 testCart.addProduct(testCatalog.addFromQuery(sc.nextInt() - 1));
@@ -98,10 +96,11 @@ public class Main {
                         throw new Exception("Invalid choice.");
                 }
             }
-        }
-        catch(Exception e) {
-            sc.next();
-            System.out.println("Herea");
+            catch (Exception e) {
+                System.out.println("\nInvalid choice. Please try again.");
+                sc.next();
+                choice = 0;
+            }
         }
     }
 

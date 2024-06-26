@@ -778,3 +778,222 @@
 10:39:39.149 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
 10:39:39.149 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
 10:39:39.149 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:49:10.757 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:49:10.769 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:49:10.770 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:49:10.771 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:49:10.771 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:49:10.772 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:49:10.772 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:49:10.772 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:49:10.772 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:49:10.772 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:49:10.772 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:49:10.772 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:49:10.772 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:49:10.772 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:49:52.044 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:49:52.058 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:49:52.060 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:49:52.060 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:49:52.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:49:52.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:49:52.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:50:35.857 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:50:35.871 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:50:35.873 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:50:35.873 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:50:35.874 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:50:35.874 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:50:35.874 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:50:35.874 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:50:35.874 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:50:35.874 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:50:35.874 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:50:47.099 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query Red
+10:50:47.100 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+10:50:47.101 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Lipstick Red successfully added to queryList.
+10:51:14.044 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:51:14.059 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:51:14.061 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:51:14.061 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:51:14.062 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:51:14.062 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:51:21.542 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query Red
+10:51:21.543 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+10:51:21.544 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Lipstick Red successfully added to queryList.
+10:51:39.084 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:51:39.100 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:51:39.101 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:51:39.101 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:51:39.101 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:51:39.101 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:51:39.101 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:51:39.102 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:51:39.102 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:52:24.461 [main] TRACE stratpoint.samuelnieva.Main -- Entered main method.
+10:52:24.479 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Mentos 100 Pack
+10:52:24.480 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Mentos 100 Pack to productList
+10:52:24.480 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Coke Zero
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Coke Zero to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product KitKat Assorted Pack
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product KitKat Assorted Pack to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Pepsi Max
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Pepsi Max to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Oreo Cookies
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Oreo Cookies to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Samsung Z20
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Samsung Z20 to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product MyPhone ZZZ
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product MyPhone ZZZ to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Sony Xperia XZ
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Sony Xperia XZ to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Google Pixel 5
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Google Pixel 5 to productList
+10:52:24.481 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product HP Pavilion Laptop
+10:52:24.481 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product HP Pavilion Laptop to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Red Hat
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Red Hat to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product White T-Shirt
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product White T-Shirt to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Chanel No. 5
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Chanel No. 5 to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Lipstick Red
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Lipstick Red to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product L'Oréal Paris Mascara
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product L'Oréal Paris Mascara to productList
+10:52:24.482 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addProduct with the product Maybelline Foundation
+10:52:24.482 [main] DEBUG stratpoint.samuelnieva.Catalog -- Added product Maybelline Foundation to productList
+10:52:32.696 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query Red
+10:52:32.698 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+10:52:32.699 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Lipstick Red successfully added to queryList.
+10:52:37.271 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query May
+10:52:37.271 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Maybelline Foundation successfully added to queryList.
+10:52:40.861 [main] TRACE stratpoint.samuelnieva.Catalog -- Entering addFromQuery with index 0
+10:52:40.861 [main] TRACE stratpoint.samuelnieva.Cart -- Entered addProduct with product Maybelline Foundation
+10:52:40.861 [main] DEBUG stratpoint.samuelnieva.Cart -- Product Maybelline Foundation added to productList
+10:52:40.862 [main] DEBUG stratpoint.samuelnieva.Cart -- Total Price of Cart has been increased to 3500.0. Previous value was 0.0.
+10:53:12.817 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query Red
+10:53:12.817 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+10:53:12.818 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Lipstick Red successfully added to queryList.
+10:53:16.274 [main] TRACE stratpoint.samuelnieva.Catalog -- Entered searchProduct with query Red
+10:53:16.275 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Red Hat successfully added to queryList.
+10:53:16.275 [main] DEBUG stratpoint.samuelnieva.Catalog -- Product Lipstick Red successfully added to queryList.

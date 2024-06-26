@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"stratpoint.samuelnieva","l":"Calculator"},{"p":"stratpoint.samuelnieva","l":"Main"}];updateSearchResults();

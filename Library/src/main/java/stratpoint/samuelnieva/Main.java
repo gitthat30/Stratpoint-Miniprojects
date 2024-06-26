@@ -64,7 +64,7 @@ public class Main {
                 case 2:
                     System.out.println("\nEnter search query:");
 
-                    String query = sc.next();
+                    String query = sc.nextLine();
                     System.out.println();
 
                     l.searchBooks(query);
@@ -152,22 +152,22 @@ public class Main {
      */
     public static Biography parseBiography() {
         System.out.println("Enter title: ");
-        String t = sc.next();
+        String t = sc.nextLine();
 
         System.out.println("Enter author: ");
-        String a = sc.next();
+        String a = sc.nextLine();
 
         System.out.println("Enter publisher: ");
-        String p = sc.next();
+        String p = sc.nextLine();
 
         System.out.println("Enter date published: ");
-        String dp = sc.next();
+        String dp = sc.nextLine();
 
         System.out.println("Enter ISBN: ");
-        String isbn = sc.next();
+        String isbn = sc.nextLine();
 
         System.out.println("Enter subject:");
-        String s = sc.next();
+        String s = sc.nextLine();
 
         return new Biography(t, a, p, dp, isbn, s);
     }
@@ -179,22 +179,22 @@ public class Main {
      */
     public static Novel parseNovel() {
         System.out.println("Enter title: ");
-        String t = sc.next();
+        String t = sc.nextLine();
 
         System.out.println("Enter author: ");
-        String a = sc.next();
+        String a = sc.nextLine();
 
         System.out.println("Enter publisher: ");
-        String p = sc.next();
+        String p = sc.nextLine();
 
         System.out.println("Enter date published: ");
-        String dp = sc.next();
+        String dp = sc.nextLine();
 
         System.out.println("Enter ISBN: ");
-        String isbn = sc.next();
+        String isbn = sc.nextLine();
 
         System.out.println("Enter genre:");
-        String g = sc.next();
+        String g = sc.nextLine();
 
         return new Novel(t, a, p, dp, isbn, g);
     }
@@ -206,28 +206,28 @@ public class Main {
      */
     public static Manga parseManga() {
         System.out.println("Enter title: ");
-        String t = sc.next();
+        String t = sc.nextLine();
 
         System.out.println("Enter author: ");
-        String a = sc.next();
+        String a = sc.nextLine();
 
         System.out.println("Enter publisher: ");
-        String p = sc.next();
+        String p = sc.nextLine();
 
         System.out.println("Enter date published: ");
-        String dp = sc.next();
+        String dp = sc.nextLine();
 
         System.out.println("Enter ISBN: ");
-        String isbn = sc.next();
+        String isbn = sc.nextLine();
 
         System.out.println("Enter illustrator: ");
-        String i = sc.next();
+        String i = sc.nextLine();
 
         System.out.println("Enter volume: ");
-        String v = sc.next();
+        String v = sc.nextLine();
 
         System.out.println("Enter genre: ");
-        String g = sc.next();
+        String g = sc.nextLine();
 
         return new Manga(t, a, p, dp, isbn, i, v, g);
     }

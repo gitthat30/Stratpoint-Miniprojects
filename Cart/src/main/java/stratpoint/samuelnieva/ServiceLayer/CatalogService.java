@@ -47,5 +47,5 @@ public interface CatalogService {
      * @param n The index of the product within the queryList to be added to the productList of the Cart
      * @return The product object to be added to the cart
      */
-    public ProductEntity addFromQuery(int n);
+    public ProductEntity getFromQuery(int n);
 }

@@ -3,6 +3,7 @@ package stratpoint.samuelnieva.ServiceLayer.IMPL;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import stratpoint.samuelnieva.EntityLayer.ProductEntity;
+import stratpoint.samuelnieva.ServiceLayer.CatalogService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
  * The type Catalog. This contains the available products that can be added to the
  * Cart.
  */
-public class CatalogServiceIMPL {
+public class CatalogServiceIMPL implements CatalogService {
     private Logger logger;
     private List<ProductEntity> productList;
     private List<ProductEntity> queryList;

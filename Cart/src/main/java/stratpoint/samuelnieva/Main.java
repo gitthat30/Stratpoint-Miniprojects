@@ -44,7 +44,7 @@ public class Main {
                     System.out.println("4 - Remove product to cart\n");
 
                     System.out.println("Choice: ");
-                    choice = sc.nextInt();
+                    choice = Integer.parseInt(sc.nextLine());
                 }
 
                 switch (choice) {
@@ -55,7 +55,6 @@ public class Main {
                     case 2:
                         System.out.println("\nPlease enter your query: ");
 
-                        sc.nextLine();
                         testCatalog.searchProduct(sc.nextLine());
 
                         System.out.println("\nWould you like to: ");
@@ -64,12 +63,12 @@ public class Main {
 
                         System.out.println("Choice: ");
 
-                        choice = sc.nextInt();
+                        choice = Integer.parseInt(sc.nextLine());
 
                         switch (choice) {
                             case 1:
                                 System.out.println("\nSelect product to add (By number):");
-                                testCart.addProduct(testCatalog.getFromQuery(sc.nextInt() - 1));
+                                testCart.addProduct(testCatalog.getFromQuery(Integer.parseInt(sc.nextLine()) - 1));
                                 break;
                             case 2:
                                 break;
@@ -85,7 +84,7 @@ public class Main {
                         //Select from list
                         System.out.println("\nSelect product to add (By number):");
 
-                        testCart.addProduct(testCatalog.getFromProductList(sc.nextInt() - 1));
+                        testCart.addProduct(testCatalog.getFromProductList(Integer.parseInt(sc.nextLine()) - 1));
                         break;
 
                     case 4:
@@ -94,7 +93,7 @@ public class Main {
 
                         //Select from list to delete
                         System.out.println("\nSelect product to delete (By number)");
-                        testCart.delProduct(sc.nextInt());
+                        testCart.delProduct(Integer.parseInt(sc.nextLine()));
                         break;
 
                     default:
@@ -103,7 +102,6 @@ public class Main {
             }
             catch (Exception e) {
                 System.out.println("\nInvalid choice. Please try again.");
-                sc.next();
                 choice = 0;
             }
         }
